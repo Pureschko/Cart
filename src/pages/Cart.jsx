@@ -8,7 +8,7 @@ const Cart = () => {
       <div className="overflow-x-auto">
         <table className="min-w-full mt-10 ">
           <thead className='border-b border-slate-200'>
-            
+
             {/* Title*/}
             <tr>
               <th className="px-4 py-3 text-left text-sm font-medium text-gray-500"></th>
@@ -105,10 +105,10 @@ export default Cart;
 
 // {/* Titles */}
 // <ul className="mt-10 flex border-b border-slate-200 px-14 pb-2">
-//       <li className="w-1/5 text-left">Product</li>        {/* Фиксированная ширина 1/5 и выравнивание по левому краю */}
-//       <li className="w-3/5 text-left relative left-32">Description</li>    {/* Фиксированная ширина 2/5 для большего текста и выравнивание по левому краю */}
-//       <li className="w-1/5 text-center ml-8">Amount</li>       {/* Фиксированная ширина 1/5 и выравнивание по центру */}
-//       <li className="w-1/5 text-right">Price</li>         {/* Фиксированная ширина 1/5 и выравнивание по правому краю */}
+//       <li className="w-1/5 text-left">Product</li> 
+//       <li className="w-3/5 text-left relative left-32">Description</li> 
+//       <li className="w-1/5 text-center ml-8">Amount</li>     
+//       <li className="w-1/5 text-right">Price</li>         
 //     </ul>
 
 // {/* Product */}
