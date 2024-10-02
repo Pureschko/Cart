@@ -12,10 +12,10 @@ const Cart = () => {
             {/* Title*/}
             <tr>
               <th className="px-4 py-3 text-left text-sm font-medium text-gray-500"></th>
-              <th className="px-6 py-3 text-left text-sm font-medium text-gray-500">Product</th>
+              <th className="pr-24 py-3 text-left text-sm font-medium text-gray-500">Product</th>
               <th className="px-6 py-3 text-left text-sm font-medium text-gray-500">Description</th>
-              <th className="px-6 py-3 text-left text-sm font-medium text-gray-500">Amount</th>
-              <th className="px-6 py-3 text-left text-sm font-medium text-gray-500">Price</th>
+              <th className="px-6 py-3 text-center text-sm font-medium text-gray-500">Amount</th>
+              <th className="pl-24 py-3 text-left text-sm font-medium text-gray-500">Price</th>
             </tr>
           </thead>
           <tbody className='border-b border-slate-200'>
@@ -27,21 +27,21 @@ const Cart = () => {
   </td>
 
     {/* Product*/}
-                <td className="px-6 py-4" width="20%">
-                  <div className="flex items-center">
-                    <div className="avatar">
-                    <div className="w-20 h-20 rounded-sm">
+                <td className="pr-24 py-4" width="10%">
+                  
+                   
+                    <div className=" flex items-center w-full h-auto rounded-sm">
                       <img
                         src="https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
                         alt="White Gold Plated Princess"
                         className='w-full h-full bg-white object-contain'/>
                     </div>
-                  </div>
-                </div>
+                  
+        
               </td>
 
               {/* Description*/}
-              <td className="px-6 py-4 text-left" width="30%">
+              <td className="px-6 ml-8 py-4 text-left" width="30%">
                   <div className="font-medium text-sm">White Gold Plated Princess</div>
                   <div className='text-sm mt-2'>
                     Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...
@@ -49,8 +49,8 @@ const Cart = () => {
                 </td>
 
                 {/*Amount*/}
-              <td className=" py-6" width="10%">
-                <div className="flex items-center justify-center gap-2">
+              <td className=" pl-24 py-6" width="10%">
+                <div className="flex items-center gap-2">
                 <button className="px-3 py-1 bg-slate-200 text-cyan-600 font-semibold">-</button>
           <span className="mx-2">2</span>
             <button className="px-3 py-1 bg-slate-200 text-cyan-600 font-semibold">+</button>
@@ -58,7 +58,7 @@ const Cart = () => {
               </td>
 
               {/*Price*/}
-              <td className="px-6 py-4 font-semibold text-base" width="10%">19,98&nbsp;€</td>
+              <td className="pl-24 py-4 font-semibold text-base" width="10%">19,98&nbsp;€</td>
             </tr>
           </tbody>
           <tfoot>
@@ -67,8 +67,8 @@ const Cart = () => {
           <tr>
           <td></td>
             <td colSpan="2"></td>
-            <td className="px-6 py-4 font-normal text-2xl">TOTAL</td>
-            <td className="px-6 py-4 font-bold text-2xl">233,29&nbsp;€</td>
+            <td className="pl-24 py-4 font-normal text-2xl">TOTAL</td>
+            <td className="pl-24 py-4 font-bold text-2xl">233,29&nbsp;€</td>
           </tr>
 
           {/*Buttons*/}
@@ -76,10 +76,10 @@ const Cart = () => {
               <td></td>
               <td></td>
               <td></td>
-              <td className="px-6 py-4">
+              <td className="pl-24 py-4">
               <button className='text-red-600 px-4 py-2 rounded-sm border border-red-600 hover:bg-red-600 hover:text-white'>Reset</button>
               </td>
-              <td className="px-6 py-4">
+              <td className="pl-24 py-4">
                 <button className='bg-cyan-600 text-white px-6 py-2 rounded-sm hover:bg-cyan-700'>Checkout</button>
               </td>
             </tr>
