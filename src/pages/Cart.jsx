@@ -3,15 +3,15 @@ import CartDesktop from '../components/CartDesktop';
 import CartMobile from '../components/CartMobile';
 
 const Cart = ({ cartItems, onRemove, onDecrease, onIncrease }) => {
-  // Функция для расчета общей стоимости корзины
+  // Function to calculate the total cost of the cart
   const totalPrice = cartItems.reduce((acc, item) => acc + (item.price || 0), 0);
 
+// Logic for Reset the cart
   const handleReset = () => {
-    // Логика для сброса корзины
   };
 
+  // Logic for Checkout the cart
   const handleCheckout = () => {
-    // Логика для оформления заказа
   };
 
   return (
